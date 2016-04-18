@@ -15,5 +15,6 @@ deploy:
   gemspec: azure-core.gemspec
   gem: azure-core
   on:
+    branch: master
     tags: true
     repo: Azure/azure-ruby-asm-core
