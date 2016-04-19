@@ -18,5 +18,6 @@ deploy:
   gemspec: dummy/azure-core.gemspec
   gem: azure-core
   on:
+    branch: master
     tags: true
     repo: vishrutshah/azure-ruby-asm-core
