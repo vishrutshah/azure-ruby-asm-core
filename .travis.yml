@@ -10,6 +10,9 @@ script:
 - cd ..
 deploy:
   provider: rubygems
+  edge:
+    source: vishrutshah/dpl
+    branch: gemspec_with_path
   api_key:
     secure: 13245768
   gemspec: dummy/azure-core.gemspec
