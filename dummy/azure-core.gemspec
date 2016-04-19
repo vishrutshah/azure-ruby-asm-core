@@ -14,7 +14,7 @@
 #--------------------------------------------------------------------------
 require 'date'
 
-require File.expand_path('../lib/azure/core/version', __FILE__)
+require File.expand_path('../../lib/azure/core/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name    = 'azure-core'
