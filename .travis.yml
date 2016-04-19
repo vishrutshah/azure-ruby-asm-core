@@ -2,9 +2,8 @@ sudo: false
 language: ruby
 rvm:
 - 2.0.0
-before_install: gem install bundler -v 1.11.2
+before_install: cd dummy && gem install bundler -v 1.11.2
 script:
-- cd dummy
 - bundle install && bundle exec rake test:unit
 - cd ..
 deploy:
